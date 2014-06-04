@@ -1,12 +1,12 @@
 {
   "name"         : "opensrt_js",
-  "version"      : "0.0.15",
+  "version"      : "0.0.1",
   "description"  : "Node.js API for Opensubtitles.org",
-  "author"       : "SlashmanX",
+  "author"       : "HunterBMT",
   "main"         : "opensrt.js",
   "repository"   : { 
     "type"       : "git", 
-    "url"        : "http://github.com/SlashmanX/OpenSRTJS.git"
+    "url"        : "https://github.com/hunterbmt/OpenSRTJS.git"
   },
   "dependencies" : {
     "xmlrpc"    : "latest",
