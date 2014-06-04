@@ -36,8 +36,8 @@ function searchEpisode(data, cb) {
 	opts.sublanguageid = "all" || data.sublanguageid;
 	if(!data.filename) {
 		opts.imdbid = data.imdbid.replace("tt", "");
-		opts.season = data.season;
-		opts.episode = data.episode;
+		opts.season = parseInt(data.season);
+		opts.episode = parseInt(data.episode);
 	}
 	else {
 		opts.tag = data.filename;
